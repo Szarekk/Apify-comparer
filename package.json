@@ -1,0 +1,15 @@
+{
+    "name": "apify-project",
+    "version": "0.0.1",
+    "description": "only testing, comparing the results of 2 latest runs (datasets) of an actor",
+    "author": "fundamental_wingnut",
+    "license": "ISC",
+    "dependencies": {
+        "apify": "0.21.10",
+        "lodash": "latest",
+        "bluebird": "latest"
+    },
+    "scripts": {
+        "start": "node main.js"
+    }
+}

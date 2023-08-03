@@ -1,0 +1,14 @@
+{
+    "title": "comparer",
+    "description": "testing testing",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+      "ActorID": {
+        "title": "ID of the actor",
+        "type": "string",
+        "description": "ID of the actor, the dataset IDs are pulled from apify and are the 2 latest datasets",
+        "editor": "textfield"
+      }
+    }
+  }
