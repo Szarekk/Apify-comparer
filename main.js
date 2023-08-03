@@ -34,7 +34,7 @@ async function createCompareMap(execId, idAttr) {
             break;
         }
 
-        _.each(results, (result, index) => {
+        _.forEach(results, (result, index) => {
             const key = createKey(result, idAttr);
             if (key) {
                 data[key] = result;
